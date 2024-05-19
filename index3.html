@@ -9,20 +9,10 @@
     .rotate-180 {
       transform: rotate(180deg);
     }
-    .sticky-header {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 0;
-      z-index: 50;
-    }
-    .scroll-offset {
-      scroll-margin-top: 70px; /* Adjust this value based on the height of your sticky header */
-    }
   </style>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-<body class="bg-gray-100 bg-pattern">
-  <header class="bg-white sticky-header">
+<body class="bg-gray-100  bg-pattern">
+  <header class="bg-white">
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
         <a href="#" class="-m-1.5 p-1.5">
@@ -56,37 +46,37 @@
                   </svg>
                 </div>
                 <div class="flex-auto">
-                  <a href="#pr-1" class="block font-semibold text-gray-900 protocol-link scroll-offset">
+                  <a href="#pr-1" class="block font-semibold text-gray-900">
                     pr-1: streamflow simulation
                     <span class="absolute inset-0"></span>
                   </a>
-                  <p class="mt-1 text-gray-600">Results for streamflow</p>
+                  <p class="mt-1 text-gray-600">Results for streamflow </p>
                 </div>
               </div>
               <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
                 <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                  <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
-                  </svg>
+                    <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
+                      </svg>
                 </div>
                 <div class="flex-auto">
-                  <a href="#pr-2a" class="block font-semibold text-gray-900 protocol-link scroll-offset">
+                  <a href="#pr-2a" class="block font-semibold text-gray-900">
                     pr-2a: SWE Estimation (spatial)
                     <span class="absolute inset-0"></span>
                   </a>
-                  <p class="mt-1 text-gray-600">Results for SWE estimation - spatial</p>
+                  <p class="mt-1 text-gray-600">Results for SWE estimation - spatial </p>
                 </div>
               </div>
               <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
                 <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                  <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
-                  </svg>
+                    <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
+                      </svg>
                 </div>
                 <div class="flex-auto">
-                  <a href="#pr-2b" class="block font-semibold text-gray-900 protocol-link scroll-offset">
+                  <a href="#pr-2b" class="block font-semibold text-gray-900">
                     pr-2b: SWE Estimation (points)
                     <span class="absolute inset-0"></span>
                   </a>
@@ -95,39 +85,40 @@
               </div>
               <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
                 <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                  <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
-                  </svg>
+                    <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
+                      </svg>
                 </div>
                 <div class="flex-auto">
-                  <a href="#pr-3" class="block font-semibold text-gray-900 protocol-link scroll-offset">
+                  <a href="#pr-3" class="block font-semibold text-gray-900">
                     pr-3: Short-range forecasts
                     <span class="absolute inset-0"></span>
                   </a>
-                  <p class="mt-1 text-gray-600">Results for short-range forecasts</p>
+                  <p class="mt-1 text-gray-600">Results for short range</p>
                 </div>
               </div>
             </div>
             <div class="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-              <a href="#overall-comparisons" class="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100 protocol-link scroll-offset">
+              <a href="#overall-comparisons" class="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100">
                 <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd" d="M2 10a8 8 0 1116 0 8 8 0 01-16 0zm6.39-2.908a.75.75 0 01.766.027l3.5 2.25a.75.75 0 010 1.262l-3.5 2.25A.75.75 0 018 12.25v-4.5a.75.75 0 01.39-.658z" clip-rule="evenodd" />
                 </svg>
                 View Overall Comparisons
               </a>
-              <a href="#add-protocol" class="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100 protocol-link scroll-offset">
+              <a href="#add-protocol" class="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100">
                 <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                  <path fill-rule="evenodd" d="M10 4a1 1 0 011 1v4h4a1 1 0 110 2h-4v4a1 1 0 11-2 0v-4H5a1 1 0 110-2h4V5a1 1 0 011-1z" clip-rule="evenodd"/>
-                </svg>
+                    <path fill-rule="evenodd" d="M10 4a1 1 0 011 1v4h4a1 1 0 110 2h-4v4a1 1 0 11-2 0v-4H5a1 1 0 110-2h4V5a1 1 0 011-1z" clip-rule="evenodd"/>
+                  </svg>
+                  
                 Add Your Protocols
               </a>
             </div>
           </div>
         </div>
-        <a href="#background" class="text-sm font-semibold leading-6 text-gray-900 scroll-offset">Background</a>
-        <a href="#experiment-results" class="text-sm font-semibold leading-6 text-gray-900 scroll-offset">Experiment Results (per protocol)</a>
-        <a href="#contacts" class="text-sm font-semibold leading-6 text-gray-900 scroll-offset">Contacts</a>
+        <a href="#background" class="text-sm font-semibold leading-6 text-gray-900">Background</a>
+        <a href="#experiment-results" class="text-sm font-semibold leading-6 text-gray-900">Experiment Results (per protocol)</a>
+        <a href="#contacts" class="text-sm font-semibold leading-6 text-gray-900">Contacts</a>
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         <!-- <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a> -->
@@ -159,17 +150,18 @@
                   </svg>
                 </button>
                 <div id="disclosure-1" class="hidden mt-2 space-y-2">
-                  <a href="#pr-1" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50 protocol-link scroll-offset">pr-1:streamflow</a>
-                  <a href="#pr-2a" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50 protocol-link scroll-offset">pr-2a: (spatial)</a>
-                  <a href="#pr-2b" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50 protocol-link scroll-offset">pr-2b: (points)</a>
-                  <a href="#pr-3" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50 protocol-link scroll-offset">pr-3: short-range forecasts</a>
-                  <a href="#overall-comparisons" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50 protocol-link scroll-offset">Overall Comparisons</a>
-                  <a href="#add-protocol" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50 protocol-link scroll-offset">Add your protocol</a>
+                  <a href="#pr-1" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">pr-1:streamflow</a>
+                  <a href="#pr-2a" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">pr-2a: (spatial)</a>
+                  <a href="#pr-2b" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">pr-2b: (points)</a>
+                  <a href="#pr-3" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">pr-3: short-range forecasts</a>
+                  <!-- <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Automations</a> -->
+                  <a href="#overall-comparisons" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Overall Comparisons</a>
+                  <a href="#add-protocol" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Add your protocol</a>
                 </div>
               </div>
-              <a href="#background" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 scroll-offset">Background</a>
-              <a href="#experiment-results" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 scroll-offset">Experiment Results (per protocol)</a>
-              <a href="#contacts" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 scroll-offset">Contacts</a>
+              <a href="#background" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Background</a>
+              <a href="#experiment-results" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Experiment Results(Per Protocol)</a>
+              <a href="#contacts" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contacts</a>
             </div>
             <div class="py-6">
               <!-- <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a> -->
@@ -181,72 +173,74 @@
   </header>
 
   <main>
-    <section id="background" class="p-6 my-6 bg-white shadow-md rounded-md scroll-offset">
+   
+    <section id="background" class="p-6 my-6 bg-white shadow-md rounded-md">
       <h2 class="text-2xl font-semibold">Background</h2>
       <p>Background information about the test bed.</p>
     </section>
-    <section id="experiment-results" class="p-6 my-6 bg-white shadow-md rounded-md scroll-offset">
+    <section id="experiment-results" class="p-6 my-6 bg-white shadow-md rounded-md">
       <h2 class="text-2xl font-semibold">Experiment Results (per protocol)</h2>
       <p>Results of experiments for each protocol.</p>
     </section>
-    <section id="contacts" class="p-6 my-6 bg-white shadow-md rounded-md scroll-offset">
+    <section id="contacts" class="p-6 my-6 bg-white shadow-md rounded-md">
       <h2 class="text-2xl font-semibold">Contacts</h2>
       <p>Contact information for the project.</p>
     </section>
-    <section id="pr-1" class="p-6 my-6 bg-white shadow-md rounded-md scroll-offset">
-      <h2 class="text-2xl font-semibold">pr-1: streamflow simulation</h2>
-      <p>Results for streamflow simulation.</p>
-    </section>
-    <section id="pr-2a" class="p-6 my-6 bg-white shadow-md rounded-md scroll-offset">
-      <h2 class="text-2xl font-semibold">pr-2a: SWE Estimation (spatial)</h2>
-      <p>Results for SWE estimation - spatial.</p>
-    </section>
-    <section id="pr-2b" class="p-6 my-6 bg-white shadow-md rounded-md scroll-offset">
-      <h2 class="text-2xl font-semibold">pr-2b: SWE Estimation (points)</h2>
-      <p>Results for SWE estimation - points.</p>
-    </section>
-    <section id="pr-3" class="p-6 my-6 bg-white shadow-md rounded-md scroll-offset">
-      <h2 class="text-2xl font-semibold">pr-3: Short-range forecasts</h2>
-      <p>Results for short-range forecasts.</p>
-    </section>
-    <section id="overall-comparisons" class="p-6 my-6 bg-white shadow-md rounded-md scroll-offset">
-      <h2 class="text-2xl font-semibold">Overall Comparisons</h2>
-      <p>View overall comparisons of the protocols.</p>
-    </section>
-    <section id="add-protocol" class="p-6 my-6 bg-white shadow-md rounded-md scroll-offset">
-      <h2 class="text-2xl font-semibold">Add Your Protocols</h2>
-      <p>Add your own protocols to the system.</p>
-    </section>
+    <section id="pr-1" class="p-6 my-6 bg-white shadow-md rounded-md">
+        <h2 class="text-2xl font-semibold">pr-1: streamflow simulation</h2>
+        <p>Results for streamflow simulation.</p>
+      </section>
+      <section id="pr-2a" class="p-6 my-6 bg-white shadow-md rounded-md">
+        <h2 class="text-2xl font-semibold">pr-2a: SWE Estimation (spatial)</h2>
+        <p>Results for SWE estimation - spatial.</p>
+      </section>
+      <section id="pr-2b" class="p-6 my-6 bg-white shadow-md rounded-md">
+        <h2 class="text-2xl font-semibold">pr-2b: SWE Estimation (points)</h2>
+        <p>Results for SWE estimation - points.</p>
+      </section>
+      <section id="pr-3" class="p-6 my-6 bg-white shadow-md rounded-md">
+        <h2 class="text-2xl font-semibold">pr-3: Short-range forecasts</h2>
+        <p>Results for short-range forecasts.</p>
+      </section>
+      <section id="overall-comparisons" class="p-6 my-6 bg-white shadow-md rounded-md">
+        <h2 class="text-2xl font-semibold">Overall Comparisons</h2>
+        <p>View overall comparisons of the protocols.</p>
+      </section>
+      <section id="add-protocol" class="p-6 my-6 bg-white shadow-md rounded-md">
+        <h2 class="text-2xl font-semibold">Add Your Protocols</h2>
+        <p>Add your own protocols to the system.</p>
+      </section>
   </main>
 
   <script>
-    $(document).ready(function() {
-      $('#menu-button').click(function() {
-        $('#mobile-menu').toggleClass('hidden');
+    document.addEventListener('DOMContentLoaded', function() {
+      const menuButton = document.getElementById('menu-button');
+      const closeButton = document.getElementById('close-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const productButton = document.getElementById('product-button');
+      const productMenu = document.getElementById('product-menu');
+      const productMobileButton = document.getElementById('product-mobile-button');
+      const disclosure1 = document.getElementById('disclosure-1');
+
+      menuButton.addEventListener('click', function() {
+        mobileMenu.classList.toggle('hidden');
       });
 
-      $('#close-button').click(function() {
-        $('#mobile-menu').addClass('hidden');
+      closeButton.addEventListener('click', function() {
+        mobileMenu.classList.add('hidden');
       });
 
-      $('#product-button').click(function() {
-        const isExpanded = $(this).attr('aria-expanded') === 'true';
-        $(this).attr('aria-expanded', !isExpanded);
-        $('#product-menu').toggleClass('hidden');
+      productButton.addEventListener('click', function() {
+        const isExpanded = productButton.getAttribute('aria-expanded') === 'true';
+        productButton.setAttribute('aria-expanded', !isExpanded);
+        productMenu.classList.toggle('hidden');
       });
 
-      $('#product-mobile-button').click(function() {
-        const isExpanded = $(this).attr('aria-expanded') === 'true';
-        $(this).attr('aria-expanded', !isExpanded);
-        $('#disclosure-1').toggleClass('hidden');
-        $(this).find('svg').toggleClass('rotate-180');
-      });
-
-      $('.protocol-link').click(function() {
-        $('#product-menu').addClass('hidden');
-        $('#product-button').attr('aria-expanded', false);
-        $('#disclosure-1').addClass('hidden');
-        $('#product-mobile-button').attr('aria-expanded', false).find('svg').removeClass('rotate-180');
+      productMobileButton.addEventListener('click', function() {
+        const isExpanded = productMobileButton.getAttribute('aria-expanded') === 'true';
+        productMobileButton.setAttribute('aria-expanded', !isExpanded);
+        disclosure1.classList.toggle('hidden');
+        productMobileButton.querySelector('svg').classList.toggle('rotate-180');
       });
     });
   </script>
