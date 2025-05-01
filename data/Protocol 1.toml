@@ -1,0 +1,33 @@
+title       = "Protocol 1: daily streamflow simulations on CAMELS catchments"
+pcol_tag    = "Pr-1"
+status      = "Complete"
+version     = 1.0
+vers_date   = "2025-04-10"
+last_editor = "AWW"
+
+[elements]
+  synopsis     = "blah blah blah"
+  pr_image     = "/pr-1-thumb.png"
+  pr_specs_tbl = "/pr1.elements.csv"
+  
+[[results]]
+synopsis   = "The table below intercompares results from different CIROH and external contributors"
+  [results.1]
+    tbl_title = "Table 1"
+    rslt_table = "/pr1.elements.csv"
+  [results.2]
+    tbl_title = "Table 2"
+    rslt_table = "/pr1.elements.csv"
+
+[[analyses]]
+  synopsis = "analyses synopsis: blah blah blah"
+  [analyses.1]
+    name    = "skill by lead time"
+    caption = "This is the first analysis graphic, which shows blah blah blah"
+    graphic = "/pr-1-thumb.png"
+  [analyses.2]
+    name    = "skill by location"
+    caption = "This is the second analysis graphic, which shows blah blah blah"
+    graphic = "/pr-1-thumb.png"
+
+
