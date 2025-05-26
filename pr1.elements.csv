@@ -1,0 +1,10 @@
+Focus/Objective, Retrospective streamflow simulation performance across multiple verification features
+Observation(s),"-- USGS gage measurements 
+of flow at hourly/daily timesteps"
+Reference capabilities (baselines), -- NWS RFC SAC-SMA/Snow17 -- NWM 3.0 streamflow forecasts -- Nextgen-based NWM default configuration
+Experimental design, "-- Spatal domain: CAMELS catchments and/or various subsets (e.g., 516 hourly gages, RFC-forecasted)\n-- Validation Period: 10 years of daily streamflow simulations, 1990-99 \n-- Timestep(s): daily, 6-hourly, hourly \n-- Types of validation: (1) temporal across all basins; (2) spatal cross-validation (CV); (3) spatial & temporal CV"
+Metrics of performance, "-- Peak flow magnitude and timing; cumulative flow vol. \n-- Modified KGE, NSE \n-- ETS for flow versus defined thresholds (e.g., flood) \n-- Accuracy metrics: correlaton, rBias, RMAE \n-- quandrant bias/corr charts \n-- Metrics also expressed relative to the reference capability"
+Other considerations, "-- Computational demand of innovation \n-- Stability of dependencies (method, dataset) \n-- Potental operational latency \n-- Extent of documentation and published research \n-- Potential for forecaster training and real-tme support \n-- Dependency on proprietary resources or methods "
+Metadata, "-- Institutional associaton and project lead \n-- Versioning, date of generaton, parameter set and/or algorithm variation, etc. "
+Contacts, "-- J. Sturtevant \n-- A. Wood \n-- C. Shen \n-- J. Frame \n-- M. Clark \n-- K. Van Werkhoven"
+Test, "Lorem ipsum odor amet    consectetuer adipiscing elit. Vehicula lacinia fermentum porttitor habitasse convallis felis! Nostra diam senectus ex sodales duis posuere. Mi porta tellus volutpat mollis himenaeos cursus. Vitae donec faucibus scelerisque mattis adipiscing hendrerit. Dapibus auctor praesent pretium quis tortor sociosqu. Integer lacinia natoque accumsan pretium nibh. Dis purus maecenas fames dignissim lacinia."
